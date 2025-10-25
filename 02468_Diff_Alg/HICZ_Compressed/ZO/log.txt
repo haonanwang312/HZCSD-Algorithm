@@ -1,0 +1,26 @@
+optimizer ZO
+agent_num 10
+nFunc_per_agent 5
+batch_size 3
+l_bits 4
+q 1
+alpha 1.0
+M 50
+nStage 25000
+const 1.5
+mu 0.01
+rv_dist UnitSphere
+save_path HICZ_Compressed/ZO/
+nFunc 50
+target_labels [0, 2, 4, 6, 8, 0, 2, 4, 6, 8]
+eta 0.0012755102040816326
+HICZ Optimization Configuration (with Compression)
+==================================================
+Number of agents: 10
+Target labels: [0, 2, 4, 6, 8, 0, 2, 4, 6, 8]
+Total iterations: 25000
+Batch size: 3
+Quantization bits: 4
+Alpha: 1.0, Mu: 0.01
+==================================================
+

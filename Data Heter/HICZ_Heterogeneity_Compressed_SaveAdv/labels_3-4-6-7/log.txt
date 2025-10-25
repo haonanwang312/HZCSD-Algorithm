@@ -1,0 +1,24 @@
+agent_num 10
+nFunc_per_agent 3
+batch_size 2
+alpha 1.0
+M 50
+nStage 12500
+const 1.5
+mu 0.01
+rv_dist UnitSphere
+q 1
+l_bits 4
+target_labels [3, 4, 6, 7, 3, 4, 6, 7, 3, 4]
+save_path HICZ_Heterogeneity_Compressed_SaveAdv/labels_3-4-6-7
+eta 0.0012755102040816326
+HICZ Optimization Configuration (with Compression)
+==================================================
+Number of agents: 10
+Target labels: [3, 4, 6, 7, 3, 4, 6, 7, 3, 4]
+Total iterations: 12500
+Batch size: 2
+Quantization bits: 4
+Alpha: 1.0, Mu: 0.01
+==================================================
+
